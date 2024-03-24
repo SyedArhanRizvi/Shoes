@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.parent1{
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+}
+.child1{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 650px;
+    font-size:15px;
+
+}
+.child2{
+    width: 100vw;
+    height: 50px;
+    background-color: chartreuse;
+    position:sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 250px;
+    color: white;
+    background-color: black;
+    font-size:15px;
+    
+}
+.search{
+    height: 25px;
+    width: 400px;
+    display: inline;
+}
+.search2{
+    margin-left: -40px;
+}
+    
+.parent2{
+    width: 100vw;
+    height: 350px;
+    background-color: aqua;
+    background-image:url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 150px;
+    display: flex;
+    
+}
+.text{
+    height: 190px;
+    width: 850px;
+    background-color: #00000077;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+    /* padding: 100px 100px; */
+}
+.sale{
+    font-size: 30px;
+}
+.p{
+    font-size: 20px;
+}
+
+/* .child3{
+    padding: 6% 10%;
+    font-size: larger;
+    /* background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; */
+} */
+/* .child4{
+    width: 100%;
+    height: 42%;
+    background-color: gray;
+} */
+/* .child5{
+    width: 90%;
+    height: 200px;
+    background-color: blue;
+    margin-left: 70px;
+    
+} */
+
+
+.parent3{
+    width: 100vw;
+    height: 750px;
+    background-color: chocolate;
+}
+.trend {
+    width: 100vw;
+    height: 950px;
+    background: linear-gradient(to left, #000000, #434343);
+}
+.imgs{
+    width: 100vw;
+    height: 250px;
+    background-color: rgb(239, 239, 239);
+    padding: 20px 80px;
+}
+.trending{
+    width: 1300px;
+    height: 200px;
+    background-color: rgb(163, 158, 158);
+    
+    
+}
+.ld{
+    width: 1250px;
+    height: 550px;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    margin: 100px;
+    margin-left: 20px;
+}
+.p2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 20px;
+    display: inline;
+    color: #302c2c;
+    
+}
+.img1{
+   width: 133px;
+   height: 130px;
+   background-color: rgb(118, 114, 114);
+   margin-left: 20px ;
+   
+}
+.img2{
+    width: 133px;
+    height: 130px;
+    background-color: rgb(118, 114, 114); 
+    margin-left: 100px;
+    margin: 10px;
+    margin-left: 160px;
+    margin-top: -130px;
+ }
+ .img3{
+    width: 133px;
+    height: 130px;
+    background-color: rgb(118, 114, 114);
+    margin-left: 300px;
+    margin-top: -140px;
+ }
+ .d1{
+    width: 133px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(118, 114, 114);
+    margin-left: 20px;
+    color: white;
+ }
+ .d2{
+    width: 133px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(118, 114, 114);
+    margin-left: 4px;
+    color: white;
+ }
+ .d3{
+    width: 133px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(118, 114, 114);
+    margin-left: 3px;
+    color: white;
+ }
+ .li{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px white;
+    margin-left: 950px;
+    margin-top: -380px;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/HD-Air-Jordan-Shoes-Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+ }
+ .about{
+    color: white;
+    margin-left: 25px;
+    padding-top: 25px;
+    font-size: larger;
+ }
+ .h{
+    font-size: 35px;
+ }
